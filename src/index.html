@@ -5,7 +5,7 @@
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 <meta name="description" content="Zalando Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Zalando to pick the best technologies for new projects">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Zalando Tech Radar</title>
+<title>Simpson Strong Tile VN Tech Radar</title>
 <link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -24,13 +24,13 @@ fetch('./config.json').then(function(response) {
 }).then(function(data) {
   radar_visualization({
     repo_url: "https://github.com/zalando/tech-radar",
-    title: "Zalando Tech Radar",
+    title: "Simpson Strong Tie Vietnam",
     date: data.date,
     quadrants: [
-      { name: "Languages" },
-      { name: "Infrastructure" },
-      { name: "Datastores" },
-      { name: "Data Management" },
+      { name: "Division 1" },
+      { name: "Division 2" },
+      { name: "Division 3" },
+      { name: "Division 4" },
     ],
     rings: [
       { name: "ADOPT", color: "#5ba300" },
@@ -49,10 +49,10 @@ fetch('./config.json').then(function(response) {
 <tr>
 <td>
 
-<h3>What is the Simpson Strongtie?</h3>
+<h3>What is the Tech Radar? - Simpson Strong Tile VN Tech Radar</h3>
 
 <p>
-The Simpson Strongtie is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
+The Zalando Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
 </p>
 
 <ul>
